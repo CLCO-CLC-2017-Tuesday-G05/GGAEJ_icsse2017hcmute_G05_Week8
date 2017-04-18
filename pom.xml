@@ -184,6 +184,18 @@
 					<artifactId>appengine-maven-plugin</artifactId>
 					<version>1.2.1</version>
 				</plugin>
+				<plugin>
+				      <groupId>org.springframework.boot</groupId>
+				      <artifactId>spring-boot-maven-plugin</artifactId>
+				      <version>1.5.2.RELEASE</version>
+				      <executions>
+					<execution>
+					  <goals>
+					    <goal>repackage</goal>
+					  </goals>
+					</execution>
+				      </executions>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 		<finalName>Spring4MVCFileUploadDownloadWithHibernate</finalName>
